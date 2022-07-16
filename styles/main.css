@@ -1,0 +1,47 @@
+#block {
+  background: #000;
+  height: 0;
+  overflow: hidden;
+  transition: height 300ms linear;
+  font-size: 26px;
+  font-family: "Play", sans-serif;
+}
+
+label {
+  cursor: pointer;
+}
+
+#showblock {
+  display: none;
+}
+
+#showblock:checked + #block {
+  height: 240px;
+}
+
+.navbar {
+  background: #000;
+  font-size: 26px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  font-family: "Play", sans-serif;
+}
+
+.nav-main {
+  display: block;
+}
+
+.nav-main li {
+  list-style: none;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.nav-links:hover {
+  color: #e6e6e6;
+}
